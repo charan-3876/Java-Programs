@@ -1,0 +1,13 @@
+package string_Programs;
+import java.util.Scanner;
+public class NextToLastWord
+{
+  public static void main(String[] args) 
+  {
+	Scanner scan=new Scanner(System.in);
+	System.out.println("Enter the sentence: ");
+	String s1=scan.nextLine();
+	String sArr[]=s1.split(" ");
+	System.out.println("Next to last word is: "+sArr[sArr.length-2]);
+  }
+}
