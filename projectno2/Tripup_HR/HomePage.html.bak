@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <script src="https://kit.fontawesome.com/e873c2c6f0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+   <div class="container">
+     <!--nav-->
+     <nav class="main-nav">
+      <img src="download.png" class="logo">
+
+        <ul class="main-menu">
+		  <table>
+          <td><strong><a href="#">Courses</a></td>
+          <td><strong><a href="#">Books</a></td>
+          <td><strong><a href="#">Board</a></td>
+          <td><strong><a href="#">Exam</a></td>
+		  <td><strong><a href="#">LiveCourse</a></td>
+		  <td><strong><a href="#">Video Library</a></td>
+		  </table>
+        </ul>
+
+		<ul class="right-menu">
+            <a href="#">
+            <i class="fas fa-user-graduate"></i>
+           </a>
+        </ul> 
+	 </nav>
+
+	 <!--showcase-->
+     <header class="showcase">
+       <h2>Clarify your doubts in your language</h2>
+	   <select name="Language" class="Language">
+	   <option value="--Select Language--">--Select Language--</option>
+       <option value="English">English</option>
+       <option value="Telugu">Telugu</option>
+       <option value="Tamil">Tamil</option>
+       <option value="Kannada">Kannada</option>
+	   <option value="Malayalam">Malayalam</option>
+	   <option value="Hindi">Hindi</option>
+       </select>
+       <a href="#" class="btn">
+         Ask Here<i class="fas fa-chevron-right"></i>
+       </a>
+     </header>
+
+	  <!--cards-->
+     <section class="home-cards">
+      <div>
+        <img src="download.jpg" alt="">
+        <h3>Marks</h3>
+        <p>
+          Conceptual understanding for better scores.
+        </p>
+        <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+      </div>
+      <div>
+        <img src="CO_0808_Microlearning-8b38574.jpg" alt="" />
+        <h3>Skills</h3>
+		<p>
+		  Build problem-solving,technical and communication skills.
+		</p>
+        <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+      </div>
+      <div>
+        <img src="iStock_000000430095Small-Red-Umbrella-Cover-or-Confidence-Letter-Blog-2013-800-x-533.jpg" alt="" />
+        <h3>Confidence</h3>
+		<p>
+		  Think and act like a future leader!
+		</p>
+        <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+      </div>
+	  <div>
+        <img src="mathematics-1509559_960_720.jpg" alt="" />
+        <h3>Subjects</h3>
+		<p>
+		  There's so much to learn! Coding,English,Maths etc...
+		</p>
+        <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+      </div>
+     </section>
+
+	 <!--Showcase2-->
+     <section class="showcase2">
+      <div class="content">
+        <h2>Young leaders Scholarship</h2>
+        <p>Your child can earn upto 30% scholarship for our program.Book a class for eligibility!</p>
+        <a href="@" class="btn">Book a free class<i class="fas fa-chevron-right"></i></a>
+      </div>
+     </section>
+
+	 <!-- Follow -->
+       <section class="follow">
+        <p>Follow eduTech</p>
+        <a href="https://facebook.com">
+          <img src="https://i.ibb.co/LrVMXNR/social-fb.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com">
+          <img src="https://i.ibb.co/vJvbLwm/social-twitter.png" alt="Twitter">
+        </a>
+        <a href="https://linkedin.com">
+          <img src="https://i.ibb.co/b30HMhR/social-linkedin.png" alt="Linkedin">
+        </a>
+      </section>
+
+	  <!-- Links -->
+      <section class="links">
+        <div class="links-inner">
+          <ul>
+            <li><h3>What's New</h3></li>
+            <li><a href="#">Surface Pro X</a></li>
+            <li><a href="#">Surface Laptop 3</a></li>
+            <li><a href="#">Surface Pro 7</a></li>
+            <li><a href="#">Windows 10 apps</a></li>
+            <li><a href="#">Office apps</a></li>
+          </ul>
+          <ul>
+            <li><h3>Microsoft Store</h3></li>
+            <li><a href="#">Account Profile</a></li>
+            <li><a href="#">Download Center</a></li>
+            <li><a href="#">Microsoft Store support</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Older tracking</a></li>
+          </ul>
+          <ul>
+            <li><h3>Education</h3></li>
+            <li><a href="#">Microsfot in education</a></li>
+            <li><a href="#">Office for students</a></li>
+            <li><a href="#">Office 365 for schools</a></li>
+            <li><a href="#">Deals for studentss</a></li>
+            <li><a href="#">Microsfot Azure</a></li>
+          </ul>
+        </div>
+      </section> 
+   </div>
+ </body>
+</html>
