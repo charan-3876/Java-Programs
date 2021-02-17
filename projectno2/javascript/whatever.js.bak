@@ -1,0 +1,33 @@
+function validateMobileNumber()
+{
+	var mobile=document.sir.mnum.value
+	var mobileLen=mobile.length
+	if(mobileLen==10)
+	{
+		document.sir.mnum.style.borderColor="green"
+		document.sir.pwd.focus()
+	}
+	else
+	{
+		document.sir.mnum.style.borderColor="red"
+		document.sir.mnum.focus()
+    }
+}
+function validatePassword()
+{
+	var password=document.sir.pwd.value
+	var passwordLen=password.length
+	if(passwordLen<4)
+	{
+		document.sir.pwd.style.borderColor="red"
+	}
+	else if(passwordLen>=4 && passwordLen<=6)
+	{
+		document.sir.pwd.style.borderColor="orange"
+	}
+	else
+	{
+		document.sir.pwd.borderColor="green"
+	}
+}
+	

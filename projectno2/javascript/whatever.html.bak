@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>SampleForm</title>
+ </head>
+ <body>
+  <script src="whatever.js"></script>
+  <form name="sir">
+  <table>
+  <tr>
+  <td>MobileNumber*</td>
+  <td>:</td>
+  <td><input type="number" placeholder="Enter phone number" required pattern=[0-9]{10} name="mnum" onblur="validateMobileNumber()"></td>
+  </tr>
+  <tr>
+  <td>Password*</td>
+  <td>:</td>
+  <td><input type="password" placeholder="Enter password" required name="pwd" onKeypress="validatePassword()"></td>
+  </tr>
+  <tr>
+  <td></td>
+  <td></td>
+  <td><input type="button" value="click"></td>
+  </tr>
+  </table>
+  </form>
+  <p id="qwerty"></p>
+ </body>
+</html>

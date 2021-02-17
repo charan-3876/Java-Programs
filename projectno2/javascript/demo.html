@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Creditcard</title>
+ </head>
+ <body onload="document.cardInfo.cvv.focus()">
+  <script src="D:\javascript\demo.js"></script>
+  <form name="cardInfo">
+  cardNumber:<input name="cardNumber">
+  cvv:<input name="cvv" onKeyup="validatecvv()">
+  <input type="button" value="add">
+  </form>
+  <i id="cvvResult"></i>
+ </body>
+</html>

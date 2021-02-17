@@ -1,0 +1,7 @@
+function add()
+{
+	var num1=document.sunilsir.number1.value
+	var num2=document.sunilsir.number2.value
+	var sum=num1*1+num2*1
+	document.getElementById("result").innerHTML="sum of"+num1+","+num2+"is:"+sum
+}
